@@ -1,0 +1,82 @@
+body {
+	background: black;
+}
+ {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	font-family: Times;
+	color: grey;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 5px;
+}
+.postcard-body {
+	display: flex;
+	margin-top: 0px;
+	padding: 7px;
+	height: 170px;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left {
+	width: 530px;
+	padding-left: 10px;
+}
+.body-right {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding-left: 3px;
+	font-family: Times;
+	color: grey;
+}
+input {
+	width: 95%;
+	padding: none;
+	margin-bottom: 5px;
+	border: none;
+	border-bottom: 1px inset grey;
+	font-family: Times;
+	color: grey;
+}
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+	width: 400px;
+}
+button {
+	width: 30%;
+	padding: 3px;
+	border-radius: 3px;
+	background-color: rgb(33, 128, 192);
+	text-align: center;
+	font-family: Times;
+	color: white;
+	border: none;
+}
+button:hover {
+	background-color: rgba(33, 128, 192, 0.911);
+}
+
+button:active {
+	background-color: rgba(44, 136, 197, 0.884);
+}
